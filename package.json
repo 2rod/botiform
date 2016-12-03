@@ -5,6 +5,7 @@
   "author": "zuzia-kru <zuzia.kru@gmail.com>",
   "description": "Let's fill some forms together!",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.6",
@@ -17,7 +18,10 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.0",
-    "hubot-telegram": "^0.1.2"
+    "hubot-telegram": "^0.1.2",
+    "koa": "^1.2.4",
+    "node-telegram-bot-api": "^0.24.0",
+    "request-promise": "^4.1.1"
   },
   "engines": {
     "node": "0.10.x"
